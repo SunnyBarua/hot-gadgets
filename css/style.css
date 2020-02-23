@@ -1,0 +1,89 @@
+.nav-item a{
+    color:#000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-indicators li{
+    
+    height: 8px;
+    background-color: #ffc81e;
+}
+.btn-buy-now{
+    background: #000;
+    color: white;  
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px; 
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel-item img{
+    width: 100%;
+    
+}
+.carousel-item p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
+.float-right{
+    position: absolute;
+    right: 120px;
+    color: orange;
+}
+.phone{
+    margin-top: 50px;
+}
+.laptop{
+    margin-top: 50px;
+}
+.card-img-top1{
+    padding: 10px;
+}
+.phone-product{
+    margin-top: 70px;
+}
+.laptop-product{
+    margin-top: 70px;
+}
+.catagories{
+    margin-top: 80px;
+}
+.catagories h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 7rem;
+    background:orange;
+    margin: auto;
+    margin-top: 2rem;
+}
+.card-img-top3{
+    height: 100px;
+    width: 100px;
+}
+.spacing{
+    margin-top: 60px;
+}
+.catagories img.bottom{
+    position: relative;
+    top: -50px;
+    right: -160px;
+    margin-top: 0;
+    height: 400px;
+    width: 500px;
+}
+
+
+
