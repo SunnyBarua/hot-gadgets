@@ -1,10 +1,20 @@
-ul li{
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header .navbar ul{
+    margin-right: 20px;
+}
+ul li {
     list-style: none;
+    font-size: 26px;
 }
 .nav-item a{
     color:#000;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
 }
 .navbar-nav li {
     margin-left: 10px;
@@ -75,7 +85,8 @@ ul li{
 }
 .card:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-    transform: translateY(-20px);
+    transform: translateY(-10px);
+    color: chocolate;
 }
 .featured .card:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
@@ -91,6 +102,13 @@ ul li{
 }
 .laptop{
     margin-top: 50px;
+}
+.cat-img{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 30px;
+    top: -20px;
 }
 .card-img-top1{
     padding: 10px;
@@ -125,6 +143,7 @@ ul li{
 .card-img-top3{
     height: 100px;
     width: 100px;
+    
 }
 .spacing{
     margin-top: 60px;
@@ -138,10 +157,12 @@ ul li{
     width: 500px;
 }
 .footer{
-    margin-top: 50px;
-    background: orange;
+    margin-top: 0;
+    background-image: linear-gradient(to right,  #cdf5f5 0%,  #f7fbfb 100%);
+    opacity: .9;
     height: 100px;
     opacity: .9;
+    
 }
 .footer ul{
     position: relative;
@@ -160,7 +181,7 @@ ul li{
 }
 .footer-pic-flag{
     position: relative;
-    left: -25px;
+    left: 5px;
     margin-right: 5px;
     height: 30px;
     width: 30px;
@@ -188,13 +209,14 @@ h3.placing{
     margin-top: 20px;
     position: relative;
     left: 30%;
-    color: #fff;
+    color: #000;
+    font-weight: 600;
 
 }
 .btn-see-more{
     border:none;
-    height: 40px;
-    width: 80px;
+    height: 50px;
+    width: 90px;
     border-radius: 5px;
     background-color: orange;
     color:#fff;
@@ -204,3 +226,53 @@ h3.placing{
 .spacing1{
     margin-top: 40px;
 }
+.last-bottom{
+    margin-top: 30px;
+    background-image: linear-gradient(to left,  #6a4af0  0%,  #1b1046  100%);
+    height: 450px;
+}
+.last-bottom ul{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.last-bottom ul.spacing{
+    margin-top: 40%;
+}
+.last-bottom ul li a {
+    text-decoration: none;
+}
+.last-bottom ul li a:hover,
+.last-bottom ul li a:visited{
+    color: blue;
+}
+.last-bottom ul li a h1{
+    font-size: 24px;
+    color: #fff;
+}
+.last-bottom ul li a h2{
+    font-size: 18px;
+    color: #fff;
+}
+.footer-image1{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 155px;
+    left: 35%;
+}
+.footer-image-2{
+    height: 110px;
+    width: 130px;
+    position: relative;
+    top: 35px;
+    left: 60%;
+}
+#available{
+    color: #fff;
+    position: relative;
+    left: 45%;
+    top: 155px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
