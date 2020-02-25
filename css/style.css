@@ -5,6 +5,17 @@ body{
     margin-left: 20px;
     margin-top: 20px;
 }
+.special::before{
+    content: '';
+    height: 100%;
+    width: 10%;
+    background:url('../images/banner/hot-gadget18.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
 .header .navbar ul{
     margin-right: 20px;
 }
